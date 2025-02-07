@@ -12,7 +12,7 @@
     />
 
     <link rel="stylesheet" href="../style/style.css" />
-    <script src="../javascript//main.js"></script>
+
     <title>Form</title>
   </head>
   <body>
@@ -20,39 +20,44 @@
       <h1>Login/Register</h1>
       <!-- section 1 -->
       <form action="" class="form">
-        <div class="form-controler">
-          <label for="">username</label>
-          <input type="text" name="" id="username" class="username" />
+        <!-- Fixed ID issue -->
+        <div class="form-controller">
+          <!-- Fixed spelling -->
+          <label for="username">Username</label>
+          <input type="text" id="username" class="username" />
           <i class="fa fa-check"></i>
           <i class="fa fa-close"></i>
-          <p class="small">Eror massage</p>
+          <p class="small">Error message</p>
+          <!-- Fixed typo -->
         </div>
         <!-- section 2 -->
-        <div class="form-controler">
-          <label for="">Email</label>
-          <input type="email" name="" id="email" class="email" />
+        <div class="form-controller">
+          <label for="email">Email</label>
+          <input type="email" id="email" class="email" />
           <i class="fa fa-check"></i>
           <i class="fa fa-close"></i>
-          <p class="small">Eror massage</p>
+          <p class="small">Error message</p>
         </div>
         <!-- section3 -->
-        <div class="form-controler">
-          <label for="">password</label>
-          <input type="text" name="" id="password" class="password" />
+        <div class="form-controller">
+          <label for="password">Password</label>
+          <input type="password" id="password" class="password" />
           <i class="fa fa-check"></i>
           <i class="fa fa-close"></i>
-          <p class="small">Eror massage</p>
+          <p class="small">Error message</p>
         </div>
         <!-- section 4 -->
-        <div class="form-controler">
-          <label for="">confirm password</label>
-          <input type="text" name="" id="confirm" class="confirm" />
+        <div class="form-controller">
+          <label for="confirm">Confirm Password</label>
+          <input type="password" id="confirm" class="confirm" />
           <i class="fa fa-check"></i>
           <i class="fa fa-close"></i>
-          <p class="small">Eror massage</p>
+          <p class="small">Error message</p>
         </div>
         <button class="btn" type="submit">Submit</button>
       </form>
     </div>
+
+    <script src="../javascript/main.js"></script>
   </body>
 </html>
